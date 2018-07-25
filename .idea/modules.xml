@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Chromium.iml" filepath="$PROJECT_DIR$/Chromium.iml" />
+      <module fileurl="file://C:\Users\domin\Documents\GitHub\Chromium-Android\Chromium.iml" filepath="C:\Users\domin\Documents\GitHub\Chromium-Android\Chromium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chromium-Android.iml" filepath="$PROJECT_DIR$/Chromium-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\domin\Documents\GitHub\Chromium-Android\app\app.iml" filepath="C:\Users\domin\Documents\GitHub\Chromium-Android\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/components/autofill/autofill.iml" filepath="$PROJECT_DIR$/components/autofill/autofill.iml" />
+      <module fileurl="file://C:\Users\domin\Documents\GitHub\Chromium-Android\components\autofill\autofill.iml" filepath="C:\Users\domin\Documents\GitHub\Chromium-Android\components\autofill\autofill.iml" />
       <module fileurl="file://$PROJECT_DIR$/browseractions/browseractions.iml" filepath="$PROJECT_DIR$/browseractions/browseractions.iml" />
+      <module fileurl="file://C:\Users\domin\Documents\GitHub\Chromium-Android\browseractions\browseractions.iml" filepath="C:\Users\domin\Documents\GitHub\Chromium-Android\browseractions\browseractions.iml" />
       <module fileurl="file://$PROJECT_DIR$/components/components.iml" filepath="$PROJECT_DIR$/components/components.iml" />
+      <module fileurl="file://C:\Users\domin\Documents\GitHub\Chromium-Android\components\components.iml" filepath="C:\Users\domin\Documents\GitHub\Chromium-Android\components\components.iml" />
       <module fileurl="file://$PROJECT_DIR$/components/components_base/components_base.iml" filepath="$PROJECT_DIR$/components/components_base/components_base.iml" />
+      <module fileurl="file://C:\Users\domin\Documents\GitHub\Chromium-Android\components\components_base\components_base.iml" filepath="C:\Users\domin\Documents\GitHub\Chromium-Android\components\components_base\components_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/content/content.iml" filepath="$PROJECT_DIR$/content/content.iml" />
+      <module fileurl="file://C:\Users\domin\Documents\GitHub\Chromium-Android\content\content.iml" filepath="C:\Users\domin\Documents\GitHub\Chromium-Android\content\content.iml" />
       <module fileurl="file://$PROJECT_DIR$/data_chart/data_chart.iml" filepath="$PROJECT_DIR$/data_chart/data_chart.iml" />
+      <module fileurl="file://C:\Users\domin\Documents\GitHub\Chromium-Android\data_chart\data_chart.iml" filepath="C:\Users\domin\Documents\GitHub\Chromium-Android\data_chart\data_chart.iml" />
       <module fileurl="file://$PROJECT_DIR$/media/media.iml" filepath="$PROJECT_DIR$/media/media.iml" />
+      <module fileurl="file://C:\Users\domin\Documents\GitHub\Chromium-Android\media\media.iml" filepath="C:\Users\domin\Documents\GitHub\Chromium-Android\media\media.iml" />
       <module fileurl="file://$PROJECT_DIR$/ui/ui.iml" filepath="$PROJECT_DIR$/ui/ui.iml" />
+      <module fileurl="file://C:\Users\domin\Documents\GitHub\Chromium-Android\ui\ui.iml" filepath="C:\Users\domin\Documents\GitHub\Chromium-Android\ui\ui.iml" />
       <module fileurl="file://$PROJECT_DIR$/components/web_contents_delegate/web_contents_delegate.iml" filepath="$PROJECT_DIR$/components/web_contents_delegate/web_contents_delegate.iml" />
+      <module fileurl="file://C:\Users\domin\Documents\GitHub\Chromium-Android\components\web_contents_delegate\web_contents_delegate.iml" filepath="C:\Users\domin\Documents\GitHub\Chromium-Android\components\web_contents_delegate\web_contents_delegate.iml" />
     </modules>
   </component>
 </project>
