@@ -1,0 +1,27 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <inset android:insetTop="6dp"
+                    android:insetRight="6dp"
+                    android:insetBottom="6dp">
+                    <shape android:shape="rectangle">
+                        <size android:height="20dp" android:width="20dp"/>
+                        <solid android:color="?attr/colorAccent"/>
+                    </shape>
+                </inset>
+            </item>
+            <item android:drawable="@drawable/ok"/>
+        </layer-list>
+    </item>
+    <item>
+        <inset android:insetTop="6dp"
+            android:insetRight="6dp"
+            android:insetBottom="6dp">
+            <shape android:shape="rectangle">
+                <size android:height="20dp" android:width="20dp"/>
+                <stroke android:width="4px" android:color="?android:attr/textColor"/>
+            </shape>
+        </inset>
+    </item>
+</selector>

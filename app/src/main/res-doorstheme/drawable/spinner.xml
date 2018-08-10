@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset android:insetTop="6dp"
+        android:insetBottom="6dp">
+            <shape android:shape="rectangle">
+                <size android:height="20dp" android:width="20dp"/>
+                <stroke android:width="4px" android:color="?attr/frameColor"/>
+                <padding
+                    android:top="6dp"
+                    android:bottom="6dp"/>
+            </shape>
+        </inset>
+    </item>
+    <item android:gravity="end"
+        android:right="4dp"
+        android:height="26dp"
+        android:width="26dp"
+        android:drawable="@drawable/dropdown"/>
+</layer-list>

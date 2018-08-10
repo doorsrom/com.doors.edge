@@ -1,0 +1,163 @@
+<resources>
+
+    <!-- attr -->
+    <declare-styleable name="LinkButton">
+        <attr name="linkButtonStyle" format="reference"/>
+    </declare-styleable>
+    <attr name="innerColor" format="color"/>
+    <attr name="frameColor" format="color"/>
+    <attr name="elementColor" format="color"/>
+
+    <!-- colors -->
+    <color name="DoorsTheme.colorAccent">#0078D7</color>
+    <color name="DoorsTheme.black">#000000</color>
+    <color name="DoorsTheme.white">#ffffff</color>
+
+    <color name="DoorsTheme.colorPrimaryDark">#171717</color>
+    <color name="DoorsTheme.windowBackgroundDark">@color/DoorsTheme.black</color>
+    <color name="DoorsTheme.textColorDark">@color/DoorsTheme.white</color>
+    <color name="DoorsTheme.textColorSecondaryDark">#80ffffff</color>
+    <color name="DoorsTheme.innerColorDark">#2B2B2B</color>
+    <color name="DoorsTheme.frameColorDark">#767676</color>
+
+    <color name="DoorsTheme.colorPrimaryLight">#F2F2F2</color>
+    <color name="DoorsTheme.windowBackgroundLight">@color/DoorsTheme.white</color>
+    <color name="DoorsTheme.textColorLight">@color/DoorsTheme.black</color>
+    <color name="DoorsTheme.textColorSecondaryLight">#80000000</color>
+    <color name="DoorsTheme.innerColorLight">@color/DoorsTheme.colorPrimaryLight</color>
+    <color name="DoorsTheme.frameColorLight">#CCCCCC</color>
+
+    <!-- styles -->
+    <style name="DoorsTheme.Light.NoActionBar" parent="DoorsTheme.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="DoorsTheme.Dark.NoActionBar" parent="DoorsTheme.Dark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="DoorsTheme.Light" parent="DoorsTheme.UNUSABLE">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/DoorsTheme.colorPrimaryLight</item>
+        <item name="colorPrimaryDark">@color/DoorsTheme.colorPrimaryLight</item>
+        <item name="android:windowBackground">@color/DoorsTheme.windowBackgroundLight</item>
+        <item name="android:textColor">@color/DoorsTheme.textColorLight</item>
+        <item name="android:textColorPrimary">@color/DoorsTheme.textColorLight</item>
+        <item name="android:textColorSecondary">@color/DoorsTheme.textColorSecondaryLight</item>
+        <item name="innerColor">@color/DoorsTheme.innerColorLight</item>
+        <item name="frameColor">@color/DoorsTheme.frameColorLight</item>
+        <item name="elementColor">@color/DoorsTheme.frameColorLight</item>
+        <item name="android:alertDialogTheme">@style/DoorsTheme.DialogTheme.Light</item>
+    </style>
+
+    <style name="DoorsTheme.Dark" parent="DoorsTheme.UNUSABLE">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/DoorsTheme.colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/DoorsTheme.colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/DoorsTheme.windowBackgroundDark</item>
+        <item name="android:textColor">@color/DoorsTheme.textColorDark</item>
+        <item name="android:textColorPrimary">@color/DoorsTheme.textColorDark</item>
+        <item name="android:textColorSecondary">@color/DoorsTheme.textColorSecondaryDark</item>
+        <item name="innerColor">@color/DoorsTheme.innerColorDark</item>
+        <item name="frameColor">@color/DoorsTheme.frameColorDark</item>
+        <item name="elementColor">@color/DoorsTheme.innerColorDark</item>
+        <item name="android:alertDialogTheme">@style/DoorsTheme.DialogTheme.Dark</item>
+    </style>
+
+    <style name="DoorsTheme.UNUSABLE" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/DoorsTheme.ActionBar</item>
+        <item name="actionBarTheme">@style/DoorsTheme.ActionBarTheme</item>
+        <item name="colorAccent">@color/DoorsTheme.colorAccent</item>
+        <item name="buttonStyle">@style/DoorsTheme.Button</item>
+        <item name="linkButtonStyle">@style/DoorsTheme.LinkButton</item>
+        <item name="checkboxStyle">@style/DoorsTheme.CheckBox</item>
+        <item name="radioButtonStyle">@style/DoorsTheme.RadioButton</item>
+        <item name="spinnerStyle">@style/DoorsTheme.Spinner</item>
+        <item name="seekBarStyle">@style/DoorsTheme.SeekBar</item>
+        <item name="android:switchStyle">@style/DoorsTheme.Switch</item>
+        <item name="editTextStyle">@style/DoorsTheme.EditText</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="DoorsTheme.ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="titleTextStyle">@style/DoorsTheme.ActionBarTitle</item>
+        <item name="elevation">0.1dp</item>
+    </style>
+
+    <style name="DoorsTheme.ActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">?android:attr/textColor</item>
+    </style>
+
+    <style name="DoorsTheme.ActionBarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">?android:attr/textColor</item>
+    </style>
+
+    <style name="DoorsTheme.DialogTheme.Light" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/DoorsTheme.colorAccent</item>
+        <item name="android:textColorPrimary">@color/DoorsTheme.textColorLight</item>
+        <item name="android:textColorAlertDialogListItem">@color/DoorsTheme.textColorLight</item>
+        <item name="android:windowBackground">@drawable/spinner_dropdown</item>
+    </style>
+
+    <style name="DoorsTheme.DialogTheme.Dark" parent="DoorsTheme.DialogTheme.Light">
+        <item name="android:textColorPrimary">@color/DoorsTheme.textColorDark</item>
+        <item name="android:textColorAlertDialogListItem">@color/DoorsTheme.textColorDark</item>
+    </style>
+
+    <style name="DoorsTheme.Button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">?android:attr/textColor</item>
+        <item name="android:fontFamily">sans-serif light</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="DoorsTheme.LinkButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:fontFamily">sans-serif light</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="DoorsTheme.CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox</item>
+        <item name="android:textColor">?android:attr/textColor</item>
+    </style>
+
+    <style name="DoorsTheme.RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radiobutton</item>
+        <item name="android:textColor">?android:attr/textColor</item>
+    </style>
+
+    <style name="DoorsTheme.Spinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/spinner</item>
+        <item name="android:popupBackground">@drawable/spinner_dropdown</item>
+        <item name="android:popupElevation">0.1dp</item>
+    </style>
+
+    <style name="DoorsTheme.SeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:thumb">@drawable/seekbar_thumb</item>
+    </style>
+
+    <style name="DoorsTheme.Switch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:switchMinWidth">64dp</item>
+        <item name="android:track">@drawable/switch_track</item>
+        <item name="android:thumb">@drawable/switch_thumb</item>
+        <item name="android:textColor">?android:attr/textColor</item>
+        <item name="android:showText">false</item>
+    </style>
+
+    <style name="DoorsTheme.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edittext</item>
+        <item name="android:textColor">@color/edittext</item>
+    </style>
+
+</resources>
